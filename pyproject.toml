@@ -1,0 +1,16 @@
+[project]
+name = "bcweb"
+version = "1.1.0"
+description = "Client for the UNSW Battlecode competition website: battles, replays, challenges, quota, tournaments"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+bcweb = "bcweb.core:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["bcweb"]
